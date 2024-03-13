@@ -1,7 +1,9 @@
 name: Spider Jar Gen CI
 
 on: workflow_dispatch
-
+  push:
+    branches:
+      - main
 jobs:
   build:
 
